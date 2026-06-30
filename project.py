@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 print("Please wait, loading the dataset from sklearn...")
 
 # -----------------------------------------------------------------
-# PART 1: DATA LOADING & PREPROCESSING (Member 1)
+# PART 1: DATA LOADING & PREPROCESSING 
 # -----------------------------------------------------------------
 # Selecting 4 easy categories for the project
 my_categories = ['sci.space', 'rec.sport.hockey', 'talk.politics.mideast', 'comp.graphics']
@@ -43,7 +43,7 @@ X_test_vectors = my_vectorizer.transform(X_test_text)
 print("Text preprocessing completed.")
 
 # -----------------------------------------------------------------
-# PART 2: BUILDING AND TRAINING THE MODELS (Member 2)
+# PART 2: BUILDING AND TRAINING THE MODELS 
 # -----------------------------------------------------------------
 print("Starting model training now...")
 
@@ -58,7 +58,7 @@ logistic_reg_obj.fit(X_train_vectors, y_train_labels)
 print("Logistic Regression model trained.")
 
 # -----------------------------------------------------------------
-# PART 3: TESTING AND EVALUATION (Member 3)
+# PART 3: TESTING AND EVALUATION 
 # -----------------------------------------------------------------
 print("\n--- SHOWING FINAL RESULTS ---")
 
